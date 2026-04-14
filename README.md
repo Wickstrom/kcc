@@ -38,6 +38,26 @@ Below is a KCC explanation for a bird classification query. KCCs identify matchi
 
 ---
 
+## User Study
+
+We conducted a user study to evaluate how different SEM explanation types are perceived by humans, following the HIVE framework for falsifiable hypothesis testing, cross-method comparison, and human-centered evaluation. The study compared three visualization methods — **bounding boxes**, **heatmaps**, and **keypoints** — using two baselines:
+
+- **PiP-Net** — prototype-based explanations with bounding boxes
+- **KMEx** — example-based explanations with heatmaps
+
+Each participant viewed three randomly selected examples per method (drawn from six correct and six incorrect classifications per method), with class labels omitted to avoid bias. We evaluated *agreement* with the model prediction, *quality* of the explanation, and *understanding* of the explanation.
+
+**KCC (keypoints)**
+![KCC user study example](media/kcc1.png)
+
+**KMEx (heatmaps)**
+![KMEx user study example](media/kmex1.png)
+
+**PiP-Net (bounding boxes)**
+![PiP-Net user study example](media/pip1.png)
+
+---
+
 ## Getting Started
 
 The notebook walks through the full KCC pipeline using example bird images and DINOv2 feature extraction.
