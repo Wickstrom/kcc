@@ -30,6 +30,14 @@ The use of keypoints is motivated by their widespread use in teaching material: 
 
 ---
 
+## Getting Started
+
+The notebook walks through the full KCC pipeline using example bird images and DINOv2 feature extraction.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wickstrom/kcc/blob/main/getting_started_with_kcc.ipynb)
+
+---
+
 ## Example
 
 Below is a KCC explanation for a bird classification query. KCCs identify matching keypoints between the query image (leftmost) and a set of prototypes. Only prototypes with matches are shown. Predictions are made by counting the number of matches. Class names are deliberately omitted to encourage using the visual explanation rather than the label.
@@ -55,11 +63,3 @@ Each participant viewed three randomly selected examples per method (drawn from 
 
 **PiP-Net (bounding boxes)**
 ![PiP-Net user study example](media/pip1.png)
-
----
-
-## Getting Started
-
-The notebook walks through the full KCC pipeline using example bird images and DINOv2 feature extraction.
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wickstrom/kcc/blob/main/getting_started_with_kcc.ipynb)
