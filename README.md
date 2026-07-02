@@ -40,7 +40,7 @@ The notebook walks through the full KCC pipeline using example bird images and D
 
 ## Example
 
-Below is a KCC explanation for a bird classification query. KCCs identify matching keypoints between the query image (leftmost) and a set of prototypes. Only prototypes with matches are shown. Predictions are made by counting the number of matches. Class names are deliberately omitted to encourage using the visual explanation rather than the label.
+Below is a KCC explanation for a bird classification query. KCCs identify matching keypoints between the query image (leftmost) and a set of prototypes. Only prototypes with matches are shown. Predictions are made by counting the number of matches. Class names are deliberately omitted to encourage using the visual explanation rather than the label. More examples can be found in the media folder.
 
 ![KCC bird classification example](media/q_ex1.png)
 
